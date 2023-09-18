@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+
+    <link rel="icon" href="assets/icono.ico" type="image/x-icon">
+
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -19,23 +24,29 @@
 <body>
     <div class="main_container">
         <div class="section main">
-            <h1 class="animate__animated animate__fadeInDown">Chris Rodríguez</h1>
-            <h2>Digital Artist</h2>
-            <p>My main assets are my <strong>creativity</strong> and my <strong>sense of humor</strong></p>
+            <div class="info animate__animated animate__fadeInDown">
+                <h1>Chris Rodríguez</h1>
+                <h3>Digital Artist</h3>
+                <p><strong>Animation &nbsp; ● &nbsp; 3D &nbsp; ● &nbsp; Drawing</strong></p>
+            
+                <p>My main assets are my <strong>creativity</strong> and my <strong>sense of humor</strong></p>
+            
+                <p>I enjoy cartoons, cinema, series and books</p>
+            </div>
         </div>
         <div class="section two-d">
             <h2>2D Animation</h2>
-            <iframe src="https://www.youtube.com/embed/9GIt5HYE_UA?si=YjMRf3quIqgO21Pm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <video controls src="assets/Irapuato.mp4"></video>
         </div>
         <div class="section two-d2">
             <video controls src="assets/HistoriaDelVino.mp4"></video>
         </div>
         <div class="section two-d3">
-            <iframe src="https://www.youtube.com/embed/mpRBeWYR9qU?si=Tb_bu5Ta6vQBbHBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <video controls src="assets/dino.mp4"></video>
         </div>
         <div class="section three-d">
             <h2>3D Animation</h2>
-            <iframe src="https://www.youtube.com/embed/jkjYVyIHYDE?si=Hj-T8_6b8Q_r87Fk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <video controls src="assets/curro.mp4"></video>
         </div>
         <div class="section three-d2">
             <video controls src="assets/Playera.mp4"></video>
@@ -48,13 +59,17 @@
             <div class="tacos1">
                 <img class="tac" src="assets/pastor.jpg" alt="">
                 <img class="tac"src="assets/asada.jpg" alt="">
-                <img class="tac" src="assets/birria.jpg" alt="">
             </div>
         </div>
         <div class="section CD2">
             <div class="tacos1">
                 <img class="tac" src="assets/canasta.jpg" alt="">
                 <img class="tac" src="assets/guisado.jpg" alt="">
+            </div>
+        </div>
+        <div class="section CD3">
+            <div class="tacos1">
+                <img class="tac" src="assets/birria.jpg" alt="">
                 <img class="tac" src="assets/pescado.jpg" alt="">
             </div>
         </div>
@@ -70,10 +85,14 @@
             </div>
         </div>
         <div class="section contact">
-            <h3>Contact</h3>
-            <a href="mailto:chrisroal9694@gmail.com">Send me an e-mail!</a>
+            <div class="cont">
+                <h3>Contact</h3>
+                <a href="mailto:chrisroal9694@gmail.com">Send me an e-mail!</a>
+            </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
